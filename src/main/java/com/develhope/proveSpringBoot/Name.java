@@ -15,7 +15,7 @@ public class Name {
         this.name = name;
     }
 
-    static String reverseName(String name) {
+    public static String reverseName(String name) {
         return new StringBuilder(name).reverse().toString();
     }
 }
